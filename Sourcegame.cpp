@@ -46,6 +46,7 @@ class Snake
 	struct node* head = NULL;
 	struct node* head2 = NULL;
 
+
 	void gotoxy(int x, int y)                     //describes the coordinates of cursor in x and y
 	{
 		COORD pos = { x,y };                         //Coord: The predefined function used to get X and Y coordinates.
