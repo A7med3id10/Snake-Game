@@ -132,6 +132,7 @@ public:
 			fx = rand() % width;
 		}
 
+
 		fy = rand() % height;               //give random values does not exceed the value of height
 		while (fy == 0 || fy == height)
 		{
