@@ -245,7 +245,7 @@ public:
 			case 77:if (lflag != 1) { resetflag(); rflag = 1; }
 				   break;
 
-				   // this ascii code for keys to control of direction of snake 2
+				   // this ascii code for keys to control of direction of snake 2 motion
 
 			case 119:if (dflag2 != 1) { resetflag2(); uflag2 = 1; }
 					break;
